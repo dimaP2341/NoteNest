@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import PropTypes from 'prop-types';
+import logo from '/logo.svg';
 
 Form.propTypes = {
   handleAddToList: PropTypes.func.isRequired,
@@ -70,7 +71,7 @@ function App() {
 function Header() {
   return (
     <div className="header">
-      <img height={100} src="public/logo.svg" alt="Logo" />
+      <img height={100} src={logo} alt="Logo" />
       <div className="title">NoteNest</div>
     </div>
   )

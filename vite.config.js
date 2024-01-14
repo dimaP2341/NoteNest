@@ -7,6 +7,6 @@ export default defineConfig({
   plugins: [react(), Inspect()],
   base: '/NoteNest/',
   build: {
-    assetsInclude: ['logo.png'],
+    assetsInclude: ['logo.svg'],
   },
 })
