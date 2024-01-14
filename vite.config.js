@@ -9,4 +9,5 @@ export default defineConfig({
   build: {
     assetsInclude: ['logo.svg'],
   },
+  publicDir: 'public',
 })

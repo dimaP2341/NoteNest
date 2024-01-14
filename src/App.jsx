@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import PropTypes from 'prop-types';
-import logo from '/logo.svg';
+import logo from '/public/logo.svg';
 
 Form.propTypes = {
   handleAddToList: PropTypes.func.isRequired,
