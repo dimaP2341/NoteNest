@@ -161,7 +161,7 @@ input[type="checkbox"] {
 
 .footer {
     background-color: blanchedalmond;
-    position: absolute;
+    position: fixed;
     text-align: center;
     padding: 1rem;
     left: 0;
@@ -236,11 +236,28 @@ input[type="checkbox"] {
     }
 
     .btn-container {
-        padding-bottom: 5rem;
+        padding-bottom: 13rem;
     }
 
     .footer {
         padding-bottom: 1.7rem;
 
+    }
+}
+
+@media (max-width: 360) {
+    label,
+    input,
+    .btn {
+       font-size: 1rem;
+    }
+
+    .btn-container {
+        padding-bottom: 8rem;
+    }
+
+    .footer {
+        padding-bottom: 1.7rem;
+        size: 5rem;
     }
 }
