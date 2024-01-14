@@ -5,7 +5,8 @@
   "homepage": "https://dimaP2341.github.io/NoteNest",
   "type": "module",
   "scripts": {
-    "deploy": "npm run build && gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",

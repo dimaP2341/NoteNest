@@ -70,7 +70,7 @@ function App() {
 function Header() {
   return (
     <div className="header">
-      <img height={100} src="src/logo.png" alt="Logo" />
+      <img height={100} src="public/logo.png" alt="Logo" />
       <div className="title">NoteNest</div>
     </div>
   )
